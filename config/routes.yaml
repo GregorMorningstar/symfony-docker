@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# Usuń lub zmień trasę, jeśli istnieje
+index:
+    path: /
+    controller: App\Controller\SomeOtherController::index

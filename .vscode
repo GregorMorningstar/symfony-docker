@@ -1,0 +1,12 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "http://localhost"
+  },
+  "liveServer.settings.file": "**/*.{html,twig,css,js,php}",
+  "liveServer.settings.ignoreFiles": [
+    "**/node_modules/**",
+    "**/vendor/**"
+  ]
+}
